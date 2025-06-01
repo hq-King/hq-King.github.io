@@ -24,7 +24,7 @@ redirect_from:
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉DAG is coming, please check our project page [here](https://zhangzhh.cn/DAG_page/)！！
-- *2025.05*: &nbsp;🎉🎉<a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Awesome Affordance Learning </a> realeased, check it now!! ![GitHub Repo stars](https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning?style=social)
+- *2025.05*: &nbsp;🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> realeased, check it now!! ![GitHub Repo stars](https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning?style=social)
 
 - *2025.04*: &nbsp;🎉🎉A new journey at ShangHai AI lab as a research intern！！
 - *2025.04*: &nbsp;🎉🎉Draw With Thought released on arxiv, check it now！！
