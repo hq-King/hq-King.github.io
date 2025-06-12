@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
- Hello, I am Hanqing Wang, an incoming Mphil student in  <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a>. I got my bachelor degree at School of Artificial Intelligence and Automation, Huazhong University of Science and Technology <a href="http://aia.hust.edu.cn/">HUST AIA</a>, and I am a research intern at <a href="[http://aia.hust.edu.cn/](https://www.shlab.org.cn/)">ShangHai AI Lab</a> Now. 
+ Hello, I am Hanqing Wang, an incoming Mphil student in  <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a>. I got my bachelor degree at School of Artificial Intelligence and Automation, Huazhong University of Science and Technology <a href="http://aia.hust.edu.cn/">HUST AIA</a>. I once did research at <a href="https://vdi.sist.shanghaitech.edu.cn/">VDI Center of ShanghaiTech University</a>, where I worked with <a href="https://www.yu-jingyi.com/">Prof. Jingyi Yu</a>  and <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Prof. Jingya Wang</a> . Now I am a research intern at <a href="[http://aia.hust.edu.cn/](https://www.shlab.org.cn/)">ShangHai AI Lab</a>.
  
  I'm currently interested in artificial intelligence, computer vision, machine learning, and their applications in robotics and MLLMs. If you have any questions, feel free to drop me an email!
 
