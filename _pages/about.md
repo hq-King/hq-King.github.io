@@ -29,6 +29,7 @@ redirect_from:
 
 - *2025.04*: &nbsp;🎉🎉A new journey at ShangHai AI lab as a research intern！！
 - *2025.04*: &nbsp;🎉🎉Draw With Thought released on arxiv, check it now！！
+- *2025.04*: &nbsp;🥺🥺I have quit my master journey in ShanghaiTech University and I will join <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a> as a mphil student in 25Fall！！
 - *2025.02*: &nbsp;🎉🎉1 paper accepted to CVPR 2025！！
 - *2025.02*: &nbsp;🎉🎉I was honored to be a reviewer in the ICLR 2025 workshop for sci-llm.
 - *2024.06*: &nbsp;🎉🎉I was honored to be selected as an outstanding graduate in HUST. 
@@ -101,7 +102,7 @@ April 2025 - Now
 
 September 2024 - April 2025
 
-  Reasearch Assistant: LLM, Embodied AI, 3D Vision
+  Master Student: LLM, Embodied AI, 3D Vision
 
 </div>
 </div>
