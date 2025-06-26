@@ -45,8 +45,6 @@ redirect_from:
 
 In preparing for submission
 
-
-
 </div>
 </div>
 
