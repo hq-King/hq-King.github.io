@@ -49,17 +49,19 @@
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
     
-.paper-box-image {
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    order: 2;
-    img {
-        max-width: 350px; /* 可根据需要调整图片的最大宽度 */
-        box-shadow: 0 0 2px rgba(0,0,0,0.5); /* 保持阴影效果 */
-        object-fit: contain; /* 图片按比例缩放以适应容器 */
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
     }
-}
+    
     .paper-box-text{
         max-width: 100%;
         order: 1;
@@ -69,14 +71,14 @@
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 350px;
+            max-width: 40%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 65%;
+            max-width: 60%;
             order: 2;
         }
 
