@@ -36,6 +36,20 @@ redirect_from:
 
 
 # 📝 Publications(\* Indicates Equal Contribution)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/sad_eval.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SAD-Eval:Safety Dynamic Evaluation for Multimodal Large Language Models](https://hq-king.github.io/)
+
+**Hanqing Wang\*** et. al
+
+In preparing for submission
+
+
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/DAG.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
