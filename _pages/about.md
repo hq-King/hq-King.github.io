@@ -23,6 +23,7 @@ redirect_from:
 
 
 # 🔥 News
+- *2025.07*: &nbsp;🎉🎉I have joined <a href="https://www.ieee.org/">IEEE </a> as a student member！！
 - *2025.06*: &nbsp;🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> has been merged in <a href="https://github.com/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> ![GitHub Repo stars](https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide?style=social)!! 
 - *2025.05*: &nbsp;🎉🎉DAG is coming, please check our project page [here](https://zhangzhh.cn/DAG_page/)！！
 - *2025.05*: &nbsp;🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> realeased, check it now!! ![GitHub Repo stars](https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning?style=social)
