@@ -46,7 +46,7 @@ redirect_from:
 **Hanqing Wang\*** et. al
 
 In preparing for submission
-
+</div>
 </div>
 </div>
 
@@ -61,7 +61,7 @@ In preparing for submission
 Under Review
 [Project Page](https://zhangzhh.cn/DAG_page/)
 
-
+</div>
 </div>
 </div>
 
@@ -77,10 +77,10 @@ Under Review
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.09479-b31b1b.svg?style=flat-square)](https://arxiv.org/pdf/2504.09479)
 
-
 </div>
 </div>
 
+<div class='paper-box' style="background-color: #f0f8ff;">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/seqafford.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -95,7 +95,7 @@ CVPR, 2025
 [搜狐](https://www.sohu.com/a/881316700_121956424)
 </div>
 </div>
-
+</div>
 
 
 # ✡️ Research Experience
