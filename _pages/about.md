@@ -17,23 +17,23 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
- Hello, I am Hanqing Wang, an incoming Mphil student in  <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a>. I got my bachelor degree at School of Artificial Intelligence and Automation, Huazhong University of Science and Technology <a href="http://aia.hust.edu.cn/">HUST AIA</a>. I once did research at <a href="https://vdi.sist.shanghaitech.edu.cn/">VDI Center of ShanghaiTech University</a>, where I worked with <a href="https://www.yu-jingyi.com/">Prof. Jingyi Yu</a>  and <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Prof. Jingya Wang</a> . Now I am a research intern at <a href="[http://aia.hust.edu.cn/](https://www.shlab.org.cn/)">ShangHai AI Lab</a>.
+ Hello, I am Hanqing Wang (王涵情), an incoming Mphil student in  <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a>. I got my bachelor degree at School of Artificial Intelligence and Automation, Huazhong University of Science and Technology <a href="http://aia.hust.edu.cn/">HUST AIA</a>. I once did research at <a href="https://vdi.sist.shanghaitech.edu.cn/">VDI Center of ShanghaiTech University</a>, where I worked with <a href="https://www.yu-jingyi.com/">Prof. Jingyi Yu</a>  and <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Prof. Jingya Wang</a> . Now I am a research intern at <a href="[http://aia.hust.edu.cn/](https://www.shlab.org.cn/)">ShangHai AI Lab</a>.
  
  I'm currently interested in 3D Vision, MLLMs, Generative World Models and their applications in robotics. Click [**Here**](https://github.com/hq-King/hq-King.github.io/blob/main/docs/CV.pdf) to visit my CV. If you have any questions, feel free to drop me an email!
 
 
 # 🔥 News
-- *2025.07*: &nbsp;🎉🎉I have joined <a href="https://www.ieee.org/">IEEE </a> as a student member！！
-- *2025.06*: &nbsp;🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> has been merged in <a href="https://github.com/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> ![GitHub Repo stars](https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide?style=social)!! 
-- *2025.05*: &nbsp;🎉🎉DAG is coming, please check our project page [here](https://zhangzhh.cn/DAG_page/)！！
-- *2025.05*: &nbsp;🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> realeased, check it now!! ![GitHub Repo stars](https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning?style=social)
+- *2025.07*: &nbsp;🎉🎉🎉I have joined <a href="https://www.ieee.org/">IEEE </a> as a student member!!!
+- *2025.06*: &nbsp;🎉🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> has been merged in <a href="https://github.com/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> ![GitHub Repo stars](https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide?style=social)!! 
+- *2025.05*: &nbsp;🎉🎉🎉DAG is coming, please check our project page [here](https://zhangzhh.cn/DAG_page/)!!!
+- *2025.05*: &nbsp;🎉🎉🎉<a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> realeased, check it now!! ![GitHub Repo stars](https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning?style=social)
 
-- *2025.04*: &nbsp;🎉🎉A new journey at ShangHai AI lab as a research intern！！
-- *2025.04*: &nbsp;🎉🎉Draw With Thought released on arxiv, check it now！！
-- *2025.04*: &nbsp;🥺🥺I quitted my master journey in ShanghaiTech University and I will join <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a> as a Mphil student in 25Fall！！
-- *2025.02*: &nbsp;🎉🎉1 paper accepted to CVPR 2025！！
-- *2025.02*: &nbsp;🎉🎉I was honored to be a reviewer in the ICLR 2025 workshop for sci-llm.
-- *2024.06*: &nbsp;🎉🎉I was honored to be selected as an outstanding graduate in HUST. 
+- *2025.04*: &nbsp;🎉🎉🎉A new journey at ShangHai AI lab as a research intern!!!
+- *2025.04*: &nbsp;🎉🎉🎉Draw With Thought released on arxiv, check it now!!!
+- *2025.04*: &nbsp;🥺🥺🥺I quitted my master journey in ShanghaiTech University and I will join <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a> as a Mphil student in 25Fall!!!
+- *2025.02*: &nbsp;🎉🎉🎉1 paper accepted to CVPR 2025!!!
+- *2025.02*: &nbsp;🎉🎉🎉I was honored to be a reviewer in the ICLR 2025 workshop for sci-llm.
+- *2024.06*: &nbsp;🎉🎉🎉I was honored to be selected as an outstanding graduate in HUST. 
 
 
 # 📝 Publications(\* Indicates Equal Contribution)
