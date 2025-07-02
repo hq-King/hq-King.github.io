@@ -37,10 +37,11 @@ redirect_from:
 
 
 # 📝 Publications(\* Indicates Equal Contribution)
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/sad_eval.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/sad_eval.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SAD-Eval:Safety Dynamic Evaluation for Multimodal Large Language Models](https://hq-king.github.io/)
+[SAD-Eval:Safety Dynamic Evaluation for Multimodal Large Language Models](<url id="d1ie1les1rh9rbe9uvo0" type="url" status="failed" title="" wc="0">https://hq-king.github.io/</url> )
 
 **Hanqing Wang\*** et. al
 
@@ -49,51 +50,50 @@ In preparing for submission
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/DAG.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/DAG.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DAG: Unleash the Potential of Diffusion Model for Open-Vocabulary 3D Affordance Grounding](https://hq-king.github.io/)
+[DAG: Unleash the Potential of Diffusion Model for Open-Vocabulary 3D Affordance Grounding](<url id="d1ie1les1rh9rbe9uvo0" type="url" status="failed" title="" wc="0">https://hq-king.github.io/</url> )
 
 **Hanqing Wang\***, Zhenhao Zhang\*, Kaiyang Ji\*, Mingyu Liu, Wenti Yin, Yuchao Chen, Zhirui Liu, Hangxing Zhang
 
 Under Review
-[Project Page](https://zhangzhh.cn/DAG_page/)
-
+[Project Page](<url id="d1ie1les1rh9rbe9uvog" type="url" status="failed" title="" wc="0">https://zhangzhh.cn/DAG_page/</url> )
 
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/draw.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/draw.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation](https://arxiv.org/pdf/2504.09479)
+[Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation](<url id="d1ie1les1rh9rbe9uvq0" type="url" status="failed" title="" wc="0">https://arxiv.org/pdf/2504.09479</url> )
 
 Zhiqing Cui\*, Jiahao Yuan\*, **Hanqing Wang**, Yanshu Li, Chenxu Du, Zhenglong Ding
 
 Under Review
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.09479-b31b1b.svg?style=flat-square)](https://arxiv.org/pdf/2504.09479)
-
+[![arXiv](<url id="d1ie1les1rh9rbe9uvpg" type="url" status="failed" title="" wc="0">https://img.shields.io/badge/arXiv-2504.09479-b31b1b.svg?style=flat-square</url> )](<url id="d1ie1les1rh9rbe9uvq0" type="url" status="failed" title="" wc="0">https://arxiv.org/pdf/2504.09479</url> )
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/seqafford.png' alt="sym" width="100%"></div></div>
+<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/seqafford.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model](https://arxiv.org/pdf/2412.01550)
+[SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model](<url id="d1ie1les1rh9rbe9uvrg" type="url" status="failed" title="" wc="0">https://arxiv.org/pdf/2412.01550</url> )
 
 Chulin Yu\*, **Hanqing Wang\***, Ye Shi, Haoyang Luo, Sibei Yang, Jingyi Yu, Jingya Wang
 
 CVPR, 2025
-[![arXiv](https://img.shields.io/badge/arXiv-2412.01550-b31b1b.svg?style=flat-square)](https://arxiv.org/pdf/2412.01550)
-[Project Page](https://seq-afford.github.io/)
-[PaperWeekly](https://mp.weixin.qq.com/s/Axk9-05R2SN_EuCu5PSwVw?poc_token=HJ4pMGijHyHdTWmWB1yg1AhlCjNOqeDoBi3Gt9ta)
-[搜狐](https://www.sohu.com/a/881316700_121956424)
+[![arXiv](<url id="d1ie1les1rh9rbe9uvr0" type="url" status="failed" title="" wc="0">https://img.shields.io/badge/arXiv-2412.01550-b31b1b.svg?style=flat-square</url> )](<url id="d1ie1les1rh9rbe9uvrg" type="url" status="failed" title="" wc="0">https://arxiv.org/pdf/2412.01550</url> )
+[Project Page](<url id="d1ie1les1rh9rbe9uvs0" type="url" status="failed" title="" wc="0">https://seq-afford.github.io/</url> )
+[PaperWeekly](<url id="d1ie1les1rh9rbe9uvsg" type="url" status="failed" title="" wc="0">https://mp.weixin.qq.com/s/Axk9-05R2SN_EuCu5PSwVw?poc_token=HJ4pMGijHyHdTWmWB1yg1AhlCjNOqeDoBi3Gt9ta</url> )
+[搜狐](<url id="d1ie1les1rh9rbe9uvt0" type="url" status="failed" title="" wc="0">https://www.sohu.com/a/881316700_121956424</url> )
 </div>
 </div>
-
 
 
 # ✡️ Research Experience
