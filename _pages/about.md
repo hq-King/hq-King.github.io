@@ -37,7 +37,7 @@ redirect_from:
 
 
 # 📝 Publications(\* Indicates Equal Contribution)
-<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box' style="background-color: #ffffdc;">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/sad_eval.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -50,7 +50,7 @@ In preparing for submission
 </div>
 </div>
 
-<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box' style="background-color: #ffffdc;">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Coming Soon</div><img src='images/DAG.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -80,7 +80,7 @@ Under Review
 </div>
 </div>
 
-<div class='paper-box' style="background-color: #f0f8ff;">
+<div class='paper-box' style="background-color: #ffffdc;">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/seqafford.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
