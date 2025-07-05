@@ -73,7 +73,7 @@ Under Review
 
 Zhiqing Cui\*, Jiahao Yuan\*, **Hanqing Wang**, Yanshu Li, Chenxu Du, Zhenglong Ding
 
-Under Review
+ACM Multimedia, 2025
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.09479-b31b1b.svg?style=flat-square)](https://arxiv.org/pdf/2504.09479)
 
