@@ -124,6 +124,17 @@ September 2024 - April 2025
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/shenzhen.png' alt="sym" width="95%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Shenzhen InnoX Academy**</span>
+
+July 2022 - Aug 2022
+
+Outstanding Member
+</div>
+</div>
+
 
 
 # 📖 Educations
