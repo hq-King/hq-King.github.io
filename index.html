@@ -1,0 +1,650 @@
+<!DOCTYPE HTML>
+<script>
+    (function () {
+        var a_idx = 0;
+        window.onclick = function (event) {
+            var a = new Array("✨", "🤖", "🥳", "👋", "🦾", "🐽");
+
+            var heart = document.createElement("b");
+            heart.onselectstart = new Function('event.returnValue=false');
+
+            document.body.appendChild(heart).innerHTML = a[a_idx];
+            a_idx = (a_idx + 1) % a.length;
+            heart.style.cssText = "position: fixed;left:-100%;";
+
+            var f = 16, 
+                x = event.clientX - f / 2, 
+                y = event.clientY - f,
+                c = randomColor(), 
+                a = 1,
+                s = 1.2; 
+
+            var timer = setInterval(function () { 
+                if (a <= 0) {
+                    document.body.removeChild(heart);
+                    clearInterval(timer);
+                } else {
+                    heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                        c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                        s + ");";
+
+                    y--;
+                    a -= 0.016;
+                    s += 0.002;
+                }
+            }, 15)
+
+        }
+        function randomColor() {
+
+            return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+            .random() * 255)) + ")";
+
+        }
+    }());
+  </script>
+
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Hanqing Wang | 王涵情</title>
+  <meta name="author" content="HqKing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" type="image/png" href="images/my/icon.jpg">
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a4292ca8f2fe5fd7dc6dfd78cc894aab";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:68%;vertical-align:middle">
+                <p style="text-align:center">
+                  <name>Hanqing (HqKing) Wang &nbsp | &nbsp 王涵情</name>
+                </p>
+                <p class="larger-text">
+                  🦊🦁🐮🐹🐰🐸🐶🐻🐨🐯
+
+                  </br></br>  
+
+                Hello, I am Hanqing Wang, an incoming Mphil student in  <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">Hong Kong University of Science and Technology(GZ)</a>.
+                I got my bachelor degree at School of Artificial Intelligence and Automation, Huazhong University of Science and Technology <a href="http://aia.hust.edu.cn/">HUST AIA</a>. 
+                I once did research at <a href="https://vdi.sist.shanghaitech.edu.cn/">VDI Center of ShanghaiTech University</a>, where I worked with <a href="https://www.yu-jingyi.com/">Prof. Jingyi Yu</a>  <b>(IEEE Fellow)</b> and <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Prof. Jingya Wang</a> . 
+                Now I am a research intern at <a href="http://aia.hust.edu.cn/](https://www.shlab.org.cn/)">ShangHai AI Lab</a>, working with AI Bench team which is directed by  <a href="https://scholar.google.ca/citations?user=E6zbSYgAAAAJ&hl=en">Prof. Guangtao Zhai </a><b>(IEEE Fellow)</b>.
+                </br> </br> 
+                I'm currently interested in 3D Vision, MLLMs, Generative World Models and their applications in robotics. 
+                Click <a href="https://github.com/hq-King/hq-King.github.io/blob/main/docs/CV.pdf">Here</a>. If you have any questions, feel free to drop me an email!🤗🤩🤪
+                </p>
+                <p style="text-align:center">
+                    <a href="wanghanqing0424@gmail.com" target="_blank">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.cz/citations?user=OeVwcDcAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/hq-King" target="_blank">Github</a>&nbsp/&nbsp
+                <a href="images/wechat.png" target="_blank">WeChat</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:60%;max-width:60%">
+                <img style="padding:1%; width:100%; max-width:100%;  display: block; margin-left: auto; margin-right: auto; " alt="profile photo" src="images/hqking.jpg" class="hoverZoomLink">
+                <br>
+                contact me:
+                <a class="larger-text" href="mailto:michaelyuancb@163.com">wanghanqing0424@gmail.com</a> 
+              </td>
+            </tr>
+          </tbody></table>
+
+
+          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <heading>Recent</heading>
+            
+            <div class="slider recent-work">
+
+              <div class="recent-block">
+                <a href="https://general-flow.github.io/">
+                  <video muted autoplay loop>
+                    <source src="images/research/roboengine.mp4" type="video/mp4">
+                  </video>
+                </a>
+                <span style="width: 390px; text-align: center;">
+                  We release RoboEngine, the first plug-and-play and generalizable robot segmentation and augmentation models ! 
+                </span>
+              </div>
+
+              <div class="recent-block">
+                <img src="images/recent/scalable-robot-learning.png">
+                <span style="width: 370px; text-align: center;">
+                  A pathway I envision for scalable robot intelligence, which forms the central theme of my research.
+                </span>
+              </div>
+
+              <div class="recent-block">
+                <a href="https://general-flow.github.io/">
+                  <video muted autoplay loop>
+                    <source src="images/research/general_flow.mp4" type="video/mp4">
+                  </video>
+                </a>
+                <span style="width: 390px; text-align: center;">
+                  Check out General Flow as a possible representation for scalable robot learning !  
+                </span>
+              </div>
+
+            </div>
+        </tbody></table> -->
+
+
+        <!-- News -->
+        <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                
+          <!-- <br> -->
+          <heading>News 🔥</heading>
+          <br>
+          <td style="padding:0px;width:100%;vertical-align:middle">
+          <p>
+            <li>[2025/07] 🎉 Check our <a href="https://aiben.ch/rank">AIBench</a> here!!!</li>
+            <li>[2025/07] 🎉 Draw with Thought accepted by ACM Multimedia 2025!!!</li>
+            <li>[2025/07] 🎉 I have joined <a href="https://www.ieee.org/">IEEE </a> as a student member !!</li>
+            <li>[2025/06] 🎉 <a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> has been merged in <a href="https://github.com/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> (6k+ Github Stars) !!!</li>
+            <li>[2025/04] 🎉 DAG is coming, please check our project page <a href="(https://zhangzhh.cn/DAG_page/)">DAG</a>.</li>
+            <li>[2025/04] 🎉 A new journey at ShangHai AI lab as a research intern !!</li>
+            <li>[2024/04] 🎉 Draw With Thought released on arxiv, check it now!! </li>
+            <li>[2025/04] 🥺 I quitted from in ShanghaiTech University and I will join <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn">HKUST(GZ)</a> as a Mphil student in 25Fall !
+            <li>[2025/02] 🎉 1 paper accepted to CVPR 2025 !!</li>
+            <li>[2025/02] 🎉 I was honored to be a reviewer in the ICLR 2025 workshop for sci-llm.</li>
+            <li>[2024/06] 🎉 I was honored to be selected as an outstanding graduate in HUST !! </li>
+          </p> 
+        </td>
+        </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <heading>Research</heading>
+          <p class="larger-text">
+            My research interest is broadly in <strong>MLLMs</strong> <strong>Generative World Models</strong>, <strong>3D Computer Vision</strong>,  and their application in 
+            <strong>Robotics</strong> currently. My research objective is to build an intelligent agent with the robust and generalizable ability to perceive and interact with a complex real-world environment.
+
+            Representative works are <span class="highlight">highlighted</span>.
+          </p>
+        
+          <!-- AIBench -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/aibench.png" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+              <a href="https://aiben.ch/rank">
+                <papertitle>AIBENCH: TOWARDS TRUSTWORTHY EVALUA-TION UNDER THE 45 LAW</papertitle>
+              </a>
+              <br>
+              Zicheng Zhang, Junying Wang, Yijin Guo, Farong Wen, Zijian Chen,<a:focus><strong>Hanqing Wang</strong></a:focus>, Wenzhe Li, Lu Sun, Yingjie Zhou, Jianbo Zhang, Bowen Yan, Ziheng Jia, Jiahao Xiao, Yuan Tian, Xiangyang Zhu, Kaiwei Zhang, Chunyi Li, Xiaohong Liu, Xiongkuo Min, Qi Jia, Guangtao Zhai.
+              <br>
+              <a href="https://aiben.ch/rank">Paper</a> /
+              <a href="https://aiben.ch/rank">Project</a> / 
+              <br>
+              <strong>2025</strong>
+              <p> We present AIBench, a flexible and rapidly updating platform that aggregates evaluation results from commercial platforms, popular open-source leaderboards, and internal evaluation benchmarks. </p>
+            </td>
+        </tr>
+
+
+        <!-- SAD-Eval -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/SAD.jpg" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+              <a href="https://general-flow.github.io/">
+                <papertitle>SAD-Eval:Safety Dynamic Evaluation for Multimodal Large Language Models</papertitle>
+              </a>
+              <br>
+              <a:focus><strong>Hanqing Wang et. al.</strong></a:focus>,
+              <br>
+              <a href="https://hq-king.github.io/">Paper</a> /
+              <a href="https://hq-king.github.io/">Project</a> / 
+              <br>
+              <strong>In Submission, 2025</strong>
+              <p> We design a dynamic evaluation protool for MLLM safety evaluation. </p>
+            </td>
+        </tr>
+
+      <!-- DAG -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/DAG.jpg" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+              <a href="https://zhangzhh.cn/DAG_page/">
+                <papertitle>DAG: Unleash the Potential of Diffusion Model for Open-Vocabulary 3D Affordance Grounding</papertitle>
+              </a>
+             <br>
+              <a:focus><strong>Hanqing Wang*</strong></a:focus>,
+                Zhenhao Zhang*, Kaiyang Ji*, Mingyu Liu, Wenti Yin, Yuchao Chen, Zhirui Liu, Hangxing Zhang
+              <br>
+        (*equal contribution)
+        <a href="https://zhangzhh.cn/DAG_page/">Paper</a> /
+        <a href="https://zhangzhh.cn/DAG_page/">Project</a> / 
+        <a href="https://zhangzhh.cn/DAG_page/">Code</a> / 
+              <br>
+              <strong>In Submission, 2025</strong>
+        <p> We unleash the powerful affordance knowledge within diffusion model for 3D affordance grounding. </p>
+            </td>
+        </tr>
+
+
+
+        <!-- DWT -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()" >
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/draw.png" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+              <a href="https://general-flow.github.io/">
+                <papertitle>Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation</papertitle>
+              </a>
+               <br>
+         Zhiqing Cui*, Jiahao Yuan*, <a:focus><strong>Hanqing Wang</strong></a:focus>, Yanshu Li, Chenxu Du, Zhenglong Ding
+        <br>
+        <a href="https://arxiv.org/pdf/2504.09479">Paper</a> /
+        <a href="https://arxiv.org/pdf/2504.09479">Project</a> /
+              <br>
+              <strong>ACMM, 2025</strong>
+              <p> We introduce DWT, a training free framework for MLLMs to perform awesome scientific diagram generation</p>
+            </td>
+        </tr>
+
+
+        <!-- Seqafford -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/seqafford.png" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+              <a href="https://general-flow.github.io/">
+                <papertitle>SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model</papertitle>
+              </a>
+              <br>
+              Chulin Yu*, <a:focus><strong>Hanqing Wang*</strong></a:focus>,  , Ye Shi, Haoyang Luo, Sibei Yang, Jingyi Yu, Jingya Wang
+              <br>
+              (*equal contribution)
+              <br>
+             <a href="https://arxiv.org/abs/2412.01550">Paper</a> /
+        <a href="https://seq-afford.github.io/">Project</a> / 
+        <a href="https://github.com/hq-King/SeqAfford">Code</a> /
+              <br>
+              <strong>CVPR, 2025</strong>
+              <p> We endow MLLM with Sequential Affordance Reasoning ability which is significant for Embodied-AI  </p>
+            </td>
+        </tr>
+
+         <!-- Experience -->
+  <table width="100%" align="center" border="0" cellpadding="10"><tbody>
+      <br>
+          <heading>Education</heading>
+      <br>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Profile</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .university-logo {
+            width: 280px; /* 固定宽度 */
+            height: auto; /* 高度自动调整以保持纵横比 */
+            margin-right: 20px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .university-info {
+            flex: 1;
+        }
+        
+        .university-name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .university-period {
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: #666;
+        }
+        
+        .university-major {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/hkust.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://www.hkust-gz.edu.cn/zh/" target="_blank"><papertitle>Hong Kong University of Science and Technology</papertitle> </a></strong></div>
+            <div class="university-period">2025.09 - 2027.06</div>
+            <div class="university-major">Guangzhou Campus, Major: Mphil</div>
+        </div>
+    </div>
+
+     <div class="container">
+        <img src="images/hzkjdx.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://www.hkust-gz.edu.cn/zh/" target="_blank"><papertitle>Huazhong University of Science and Technology</papertitle> </a></strong></div>
+            <div class="university-period">2020.09 - 2024.06</div>
+            <div class="university-major">Wuhan, Major: Automation, AIA</div>
+        </div>
+    </div>
+
+         
+        
+<!-- 
+        <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <br>
+            <heading>Service and Teaching</heading>
+            <br><br>
+          <td style="padding:0px;width:100%;vertical-align:middle">
+            <p>
+              <li>Reviewer: The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2024)</li>
+            </p>
+            <p>
+              <li>Reviewer: 2024 IEEE Robotics and Automation Letters (RAL 2024)</li>
+            </p>
+          </td>
+        </tr>
+        </tbody></table> -->
+
+        <!-- <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <br>
+              <heading>Recent Talks</heading>
+            <br><br>
+            <td style="padding:0px;width:100%;vertical-align:middle">
+              <p>
+                <li>[August 20] Student Representative Speech at the Annual School Assembly of EECS
+                [<a href="pdf\Speech_2023_Assembly.pdf">Manuscript</a>]
+                </li>
+             </p>
+              <p>
+                 <li>[May 27] "RLAfford: End-to-End Affordance Learning for Robotic Manipulation" at Turing Student Forum (<strong>Outstanding Presentation Award</strong>)
+                 [<a href="https://www.bilibili.com/video/BV1pM4y1i77m/?spm_id_from=333.999.0.0&vd_source=29e736b58716f318ce554795bbbe6149">Video</a>]
+                 </li>
+              </p>
+            </td>
+          </tr>
+        </tbody></table> -->
+        
+          <!-- Services -->
+        <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <br>
+              <heading>Services</heading>
+              <br>
+            <td style="padding:0px;width:100%;vertical-align:middle">
+                <li>Reviewer: CVPR, ICLR</li>
+              </p>
+              <p>
+                <li>I serve as the leader of vision group in Robot team of HUST .</li>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+         <!-- Experience -->
+  <table width="100%" align="center" border="0" cellpadding="10"><tbody>
+      <br>
+          <heading>Experience</heading>
+      <br>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Profile</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .university-logo {
+            width: 280px; /* 固定宽度 */
+            height: auto; /* 高度自动调整以保持纵横比 */
+            margin-right: 20px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .university-info {
+            flex: 1;
+        }
+        
+        .university-name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .university-period {
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: #666;
+        }
+        
+        .university-major {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/AI LAB.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://www.shlab.org.cn/" target="_blank"><papertitle>Shanghai Artificial Intelligence Laboratory</papertitle> </a></strong></div>
+            <div class="university-period">2025.4 -2025.8</div>
+            <div class="university-major">Research Intern: LLMs, Benchmark</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="images/skdblue.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">          
+        <strong><a href="https://vdi.sist.shanghaitech.edu.cn/" target="_blank"><papertitle>VDI Center of ShanghaiTech University</papertitle></a></strong></div>
+            <div class="university-period">2024.9 - 2025.4</div>
+            <div class="university-major">Master Student: LLM, Embodied AI, 3D Vision</div>
+        </div>
+    </div>
+
+       <div class="container">
+        <img src="images/shenzhen.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">          
+        <strong><a href="https://www.innoxsz.com/" target="_blank"><papertitle>ShenZhen Innox Academy</papertitle></a></strong></div>
+            <div class="university-period">2022.6 - 2022.9</div>
+            <div class="university-major">Excellent Member</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+        </br>
+        <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+                <br>
+                <heading>Selected Awards and Honors 🏆</heading>
+                <br>
+                <br>
+                <td style="padding:0px;width:100%;vertical-align:middle">
+                  <p>
+                    <li>2024: <b>Outstanding Graduate</b> in <a href="http://aia.hust.edu.cn/"> HUST</a>></li>
+                  </p>
+
+                  <p>
+                    <li>2023: China University Robot Competition of ROBOCON, <b>National First Prize</b></li>
+                   <p>
+
+                  <p>
+                    <li>2022: China University Robot Competition of ROBOCON, <b>National First Prize</b></li>
+                  </p>
+
+                   <p>
+                    <li>2021: China University Robot Competition of ROBOCON, <b>National First Prize</b></li>
+                  </p>
+
+                   <p>
+                    <li>2023: <b>"SIEMENS Cup"</b> China Intelligent Manufacturing Challenge, <b>Second Prize</b></li>
+                  </p>
+
+                   <p>
+                    <li>2022: National Intelligent Robot Innovation Competition, <b>National First Prize</b></li>
+                  </p>
+
+                   <p>
+                    <li>2021: <b>Outstanding Member</b> in <a href="https://www.innoxsz.com/">Shenzhen InnoX Academy</a>.
+                  </p>
+
+                  <p>
+                    <li>2022: RoboCom Robot developer competition, <b>Third Prize</b></li>
+                  </p>
+
+                  <p>
+                    <li>2022: <b>Scholarship of Scientific and Technological Innovation</b>, HUST</li>
+                  </p>
+
+                  <p>
+                    <li>2022: <b>Freshman scholarship</b>, HUST</li>
+                  </p>
+
+                </td>
+            </tr>
+        </tbody></table>
+
+       <br>
+<style>
+  /* 1. 让图片统一 120×120，裁剪不变形 */
+  .gallery-item {
+    width: 180px;
+    height: 160px;
+    object-fit: cover;   /* 填满区域，多余裁剪 */
+    border-radius: 4px;  /* 可选：圆角美观 */
+  }
+
+  /* 2. 自适应网格布局，一行放不下就换行 */
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;            /* 图片间距 */
+    justify-content: flex-start;
+  }
+</style>
+
+<table style="width:100%;border:0;border-spacing:0;margin:0 auto;">
+  <tbody>
+    <tr>
+      <td style="padding:0;width:100%;vertical-align:middle">
+        <heading>Hobbies 🎨</heading><br>
+        🚴🏻‍♂️ Cycling, 🏀 Basketball, ⛰️ Hiking, 📷 Photography, 😺 Cat
+        <br><br>
+
+        <div class="gallery-container">
+          <!-- 下面 img 标签保持不动 -->
+          <img src="images/gallery/1.jpg"  class="gallery-item">
+          <img src="images/gallery/2.jpg"  class="gallery-item">
+          <img src="images/gallery/3.jpg"  class="gallery-item">
+          <img src="images/gallery/4.jpg"  class="gallery-item">
+          <img src="images/gallery/5.jpg"  class="gallery-item">
+          <img src="images/gallery/6.jpg"  class="gallery-item">
+          <img src="images/gallery/7.jpg"  class="gallery-item">
+
+          <img src="images/gallery/17.jpg"  class="gallery-item">
+          <img src="images/gallery/8.jpg"  class="gallery-item">
+          <img src="images/gallery/15.jpg"  class="gallery-item">
+          <img src="images/gallery/11.jpg"  class="gallery-item">
+          <img src="images/gallery/12.jpg" class="gallery-item">
+          <img src="images/gallery/13.jpg"   class="gallery-item">
+
+          <img src="images/gallery/14.jpg"      class="gallery-item">
+          <img src="images/gallery/18.jpg" class="gallery-item">
+          <img src="images/gallery/16.jpg"     class="gallery-item">
+        
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+        </br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                    This template is a modification to <a href="https://gengyiran.github.io/">Yiran Geng</a>'s and <a href="https://jonbarron.info/">Jon Barron</a>'s website. 
+                </p>
+              </td>
+            </tr>
+        </tbody></table>
+
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
