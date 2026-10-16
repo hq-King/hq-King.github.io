@@ -1,707 +1,906 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Hanqing Wang | 王涵情</title>
-<meta name="author" content="HqKing">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<link rel="icon" type="image/jpeg" href="images/cat.jpg">
-<link rel="apple-touch-icon" href="images/cat.jpg">
 <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a4292ca8f2fe5fd7dc6dfd78cc894aab";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<style>
-/* 新增全局辅助样式，优化布局 */
-.university-container {
-  display: flex;
-  align-items: center;
-  max-width: 800px;
-  margin:20px auto;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-}
-.university-logo {
-  width: 280px;
-  height: auto;
-  margin-right: 20px;
-  border: 1px solid #ddd;
-  padding: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-.university-info {
-  flex: 1;
-}
-.university-name {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-.university-period {
-  font-size: 12px;
-  margin-bottom: 5px;
-  color: #666;
-}
-.university-major {
-  font-size: 12px;
-  color: #666;
-}
-.gallery-item {
-  width: 180px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-.gallery-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: flex-start;
-}
-</style>
+    (function () {
+        var a_idx = 0;
+        window.onclick = function (event) {
+            var a = new Array("✨", "🤖", "🥳", "👋", "🦾", "🎉", "🥺");
+
+            var heart = document.createElement("b");
+            heart.onselectstart = new Function('event.returnValue=false');
+
+            document.body.appendChild(heart).innerHTML = a[a_idx];
+            a_idx = (a_idx + 1) % a.length;
+            heart.style.cssText = "position: fixed;left:-100%;";
+
+            var f = 16, 
+                x = event.clientX - f / 2, 
+                y = event.clientY - f,
+                c = randomColor(), 
+                a = 1,
+                s = 1.2; 
+
+            var timer = setInterval(function () { 
+                if (a <= 0) {
+                    document.body.removeChild(heart);
+                    clearInterval(timer);
+                } else {
+                    heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                        c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                        s + ");";
+
+                    y--;
+                    a -= 0.016;
+                    s += 0.002;
+                }
+            }, 15)
+
+        }
+        function randomColor() {
+
+            return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+            .random() * 255)) + ")";
+
+        }
+    }());
+  </script>
+
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Hanqing Wang | 王涵情</title>
+  <meta name="author" content="HqKing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" type="image/jpeg" href="images/cat.jpg">
+  <link rel="apple-touch-icon" href="images/cat.jpg">
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a4292ca8f2fe5fd7dc6dfd78cc894aab";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
 <body>
-<!-- 点击屏幕emoji特效脚本 -->
-<script>
-(function () {
-  var a_idx = 0;
-  window.onclick = function (event) {
-    var a = new Array("✨", "🤖", "🥳", "👋", "🦾", "🎉", "🥺");
-    var heart = document.createElement("b");
-    heart.onselectstart = new Function('event.returnValue=false');
-    document.body.appendChild(heart).innerHTML = a[a_idx];
-    a_idx = (a_idx + 1) % a.length;
-    heart.style.cssText = "position: fixed;left:-100%;";
-    var f = 16, x = event.clientX - f / 2, y = event.clientY - f, c = randomColor(), a = 1, s = 1.2;
-    var timer = setInterval(function () {
-      if (a <= 0) {
-        document.body.removeChild(heart);
-        clearInterval(timer);
-      } else {
-        heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" + c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" + s + ");";
-        y--;
-        a -= 0.016;
-        s += 0.002;
-      }
-    }, 15)
-  }
-  function randomColor() {
-    return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
-  }
-}());
-</script>
+  <table class="page-shell" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+          <table class="intro-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:68%;vertical-align:middle">
+                <p style="text-align:center">
+                  <name>Hanqing Wang &nbsp | &nbsp 王涵情</name>
+                </p>
+                <p class="larger-text">
+                I am an MPhil and incoming PHD student at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, where I am advised by Prof. <a href="https://hkustai.github.io">Hui Xiong</a> <b>(IEEE, ACM, AAAI, AAAS, CAAI and CCF Fellow)</b>. I am also the founder of  <a href="https://hai-hkust.github.io/">HKUST(GZ) Frontier AI Club</a>.
+                </br> </br>
+                I received my bachelor's degree from the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology (<a href="http://aia.hust.edu.cn/">HUST AIA</a>). I have conducted research at the <a href="https://vdi.sist.shanghaitech.edu.cn/">VDI Center of ShanghaiTech University</a> and <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>. I am now a research intern at WeChat Group, focusing on post/pre-training for Live-Streaming LLM. 
+                </br> </br>
+                My research interests lie broadly in 3D vision, MLLM, generative world models, and their applications to embodied intelligence. My long-term goal is to develop generalizable intelligent agents that can perceive, reason about, and interact with the physical world.
+			   </br> </br>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:60%;max-width:60%">
+                <img style="padding:1%; width:100%; max-width:100%;  display: block; margin-left: auto; margin-right: auto; " alt="profile photo" src="images/touxiang.png" class="hoverZoomLink">
+                <br>
+                Contact me:
+                <a class="larger-text" href="mailto:wanghanqing0424@gmail.com">wanghanqing0424@gmail.com</a> 
+              </td>
+            </tr>
+          </tbody></table>
+          <p class="contact-links">
+            <a href="https://xhslink.com/m/IqeE5WnBqr" target="_blank" class="contact-icon-link">
+              <img src="images/rednote.png" alt="" aria-hidden="true" class="contact-icon contact-image-icon">
+              RedNote
+            </a>
+            <span>/</span>
+            <a href="https://scholar.google.cz/citations?user=OeVwcDcAAAAJ&hl=zh-CN" target="_blank" class="contact-icon-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="contact-icon scholar-icon">
+                <path d="M12 3 1.5 9 12 15l10.5-6L12 3Z"></path>
+                <path d="M5.5 12.4v4.1c0 1.9 2.9 3.5 6.5 3.5s6.5-1.6 6.5-3.5v-4.1L12 16.1l-6.5-3.7Z"></path>
+              </svg>
+              Google Scholar
+            </a>
+            <span>/</span>
+            <a href="https://github.com/hq-King" target="_blank" class="contact-icon-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="contact-icon github-icon">
+                <path d="M12 .9C5.9.9 1 5.8 1 11.9c0 4.8 3.1 8.9 7.4 10.4.5.1.7-.2.7-.5v-1.9c-3 .7-3.7-1.3-3.7-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.7-1.4-2.4-.3-5-1.2-5-5.4 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.7-.4.9 0 1.9.1 2.7.4 2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.2-2.6 5.1-5 5.4.4.3.8 1 .8 2v2.7c0 .3.2.6.8.5 4.3-1.5 7.4-5.6 7.4-10.4C23 5.8 18.1.9 12 .9Z"></path>
+              </svg>
+              Github
+            </a>
+          </p>
 
-<table class="page-shell" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr style="padding:0px">
-<td style="padding:0px">
-<table class="intro-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr style="padding:0px">
-<td style="padding:2.5%;width:68%;vertical-align:middle">
-<p style="text-align:center">
-<name><strong style="color:red">Hanqing Wang</strong> &nbsp | &nbsp 王涵情</name>
-</p>
-<p class="larger-text">
-I am an MPhil and incoming PHD student at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, where I am advised by Prof. <a href="https://hkustai.github.io">Hui Xiong</a> <b>(IEEE, ACM, AAAI, AAAS, CAAI and CCF Fellow)</b>. I am also the founder of <a href="https://hai-hkust.github.io/">HKUST(GZ) Frontier AI Club</a>.
-<br><br>
-I received my bachelor's degree from the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology (<a href="http://aia.hust.edu.cn/">HUST AIA</a>). I have conducted research at the <a href="https://vdi.sist.shanghaitech.edu.cn/">VDI Center of ShanghaiTech University</a> and <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>. I am now a research intern at WeChat Group, focusing on post/pre-training for Live-Streaming LLM.
-<br><br>
-My research interests lie broadly in 3D vision, MLLM, generative world models, and their applications to embodied intelligence. My long-term goal is to develop generalizable intelligent agents that can perceive, reason about, and interact with the physical world.
-<br><br>
-</p>
-</td>
-<td style="padding:2.5%;width:60%;max-width:60%">
-<img style="padding:1%; width:100%; max-width:100%; display: block; margin-left: auto; margin-right: auto; " alt="profile photo" src="images/touxiang.png" class="hoverZoomLink">
-<br> Contact me: <a class="larger-text" href="mailto:wanghanqing0424@gmail.com">wanghanqing0424@gmail.com</a>
-</td>
-</tr>
-</tbody>
-</table>
+          <div class="internship-strip" aria-label="Internship footprints">
+            <a href="https://weixin.qq.com/" target="_blank" class="internship-badge" title="WeChat Group">
+              <img src="images/wxg.jpg" alt="WeChat Group">
+            </a>
+            <a href="https://www.shlab.org.cn/" target="_blank" class="internship-badge" title="Shanghai Artificial Intelligence Laboratory">
+              <img src="images/AI LAB.png" alt="Shanghai AI Lab">
+            </a>
+            <a href="https://www.hust.edu.cn/" target="_blank" class="internship-badge" title="Huazhong University of Science and Technology">
+              <img src="images/hzkjdx.png" alt="Huazhong University of Science and Technology">
+            </a>
+            <a href="https://www.hkust-gz.edu.cn/" target="_blank" class="internship-badge" title="HKUST Guangzhou">
+              <img src="images/hkust.png" alt="HKUST Guangzhou">
+            </a>
+          </div>
 
-<p class="contact-links">
-<a href="https://xhslink.com/m/IqeE5WnBqr" target="_blank" class="contact-icon-link">
-<img src="images/rednote.png" alt="" aria-hidden="true" class="contact-icon contact-image-icon"> RedNote
-</a>
-<span>/</span>
-<a href="https://scholar.google.cz/citations?user=OeVwcDcAAAAJ&hl=zh-CN" target="_blank" class="contact-icon-link">
-<svg viewBox="0 0 24 24" aria-hidden="true" class="contact-icon scholar-icon">
-<path d="M12 3 1.5 9 12 15l10.5-6L12 3Z"></path>
-<path d="M5.5 12.4v4.1c0 1.9 2.9 3.5 6.5 3.5s6.5-1.6 6.5-3.5v-4.1L12 16.1l-6.5-3.7Z"></path>
-</svg> Google Scholar
-</a>
-<span>/</span>
-<a href="https://github.com/hq-King" target="_blank" class="contact-icon-link">
-<svg viewBox="0 0 24 24" aria-hidden="true" class="contact-icon github-icon">
-<path d="M12 .9C5.9.9 1 5.8 1 11.9c0 4.8 3.1 8.9 7.4 10.4.5.1.7-.2.7-.5v-1.9c-3 .7-3.7-1.3-3.7-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.7-1.4-2.4-.3-5-1.2-5-5.4 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.7-.4.9 0 1.9.1 2.7.4 2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.2-2.6 5.1-5 5.4.4.3.8 1 .8 2v2.7c0 .3.2.6.8.5 4.3-1.5 7.4-5.6 7.4-10.4C23 5.8 18.1.9 12 .9Z"></path>
-</svg> Github
-</a>
-</p>
 
-<div class="internship-strip" aria-label="Internship footprints">
-<a href="https://weixin.qq.com/" target="_blank" class="internship-badge" title="WeChat Group">
-<img src="images/wxg.jpg" alt="WeChat Group">
-</a>
-<a href="https://www.shlab.org.cn/" target="_blank" class="internship-badge" title="Shanghai Artificial Intelligence Laboratory">
-<img src="images/AI LAB.png" alt="Shanghai AI Lab">
-</a>
-<a href="https://www.hust.edu.cn/" target="_blank" class="internship-badge" title="Huazhong University of Science and Technology">
-<img src="images/hzkjdx.png" alt="Huazhong University of Science and Technology">
-</a>
-<a href="https://www.hkust-gz.edu.cn/" target="_blank" class="internship-badge" title="HKUST Guangzhou">
-<img src="images/hkust.png" alt="HKUST Guangzhou">
-</a>
-</div>
-
-<!-- News -->
+       <!-- News -->
 <table class="section-block news-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td style="padding:0px;width:100%;vertical-align:middle">
-<heading>News 🔥</heading>
-<div style=" height: 200px; overflow-y: auto; padding-right: 10px; border: 1px solid #eee; border-radius: 8px; padding: 10px 15px; ">
-<ul style="margin:0;padding-left:20px;">
-<li>[2026/09] 🎉 Check out our newest survey paper about <a href="https://jingliangli.com/affordance-survey/">Affordance for Embodied AI</a> !!!</li>
-<li>[2026/09] 🎉 One Paper Accepted by TPAMI!!!</li>
-<li>[2026/09] 🎉 Two Paper Accepted by NeurIPS 2026!!!</li>
-<li>[2026/09] 🎉 One Paper Accepted by CORL 2026!!!</li>
-<li>[2026/09] 🎉 We founded <a href="https://hai-hkust.github.io/">HKUST(GZ) Frontier AI Club</a> a community for AI reserach sharing and collaboration!!</li>
-<li>[2026/08] 🎉 A new journey at WeChat Group in Tencent as a research intern !!</li>
-<li>[2026/07] 🎉 We founded <a href="https://openenvision.github.io/BlogrXiv/site/index.html">BlogrXiv</a>, a platform for blog sharing.</li>
-<li>[2026/07] 🎉 We founded <a href="https://openenvision.github.io/">OpenEnvision</a>, an open research community advancing world models and vision intelligence through academia–industry collaboration.</li>
-<li>[2026/06] 🎉 Two Papers Accepted by ECCV 2026!!!</li>
-<li>[2026/04] 🎉 One Paper Accepted by MMRAgI@CVPR 2026 workshop!!!</li>
-<li>[2026/04] 🎉 One Paper Accepted by KnowFM@ACL 2026 workshop as Oral Presentation!!!</li>
-<li>[2026/03] 🎉 We got the 3-rd place in the NTIRE26-3DRR competation in CVPR 2026 workshop!!!</li>
-<li>[2025/11] 🎉 I am honored to receive the AAAI Student Scholarship! See you in SG !!!</li>
-<li>[2025/11] 🎉 Two papers are accepted to AAAI 2026, with one oral presentation, see you in SG !!!</li>
-<li>[2025/07] 🎉 Check our <a href="https://aiben.ch/rank">AIBench</a> here!!!</li>
-<li>[2025/07] 🎉 Draw with Thought accepted by ACM Multimedia 2025 as an oral presentation!!!</li>
-<li>[2025/06] 🎉 <a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> <img src="https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning" alt="GitHub stars"> merged in <a href="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> <img src="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide" alt="GitHub stars"> !!!</li>
-<li>[2025/04] 🎉 A new journey at ShangHai AI lab as a research intern !!</li>
-<li>[2025/02] 🎉 1 paper accepted to CVPR 2025 !!</li>
-</ul>
-</div>
-</td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td style="padding:0px;width:100%;vertical-align:middle">
+        <heading>News 🔥</heading>
+        <!-- 👇 这里是关键：滚动容器 -->
+        <div style="
+          height: 200px;        /* 固定高度 */
+          overflow-y: auto;     /* 纵向滚动 */
+          padding-right: 10px; /* 避免滚动条贴文字 */
+          border: 1px solid #eee;
+          border-radius: 8px;
+          padding: 10px 15px;
+        ">
+          <ul style="margin:0;padding-left:20px;">
+			<li>[2026/09] 🎉 Check out our newest survey paper about <a href="https://jingliangli.com/affordance-survey/">Affordance for Embodied AI</a> !!!</li>
+			<li>[2026/09] 🎉 One Paper Accepted by TPAMI!!!</li>
+			<li>[2026/09] 🎉 Two Paper Accepted by NeurIPS 2026!!!</li>
+			<li>[2026/09] 🎉 One Paper Accepted by CORL 2026!!!</li>
+			<li>[2026/09] 🎉 We founded <a href="https://hai-hkust.github.io/">HKUST(GZ) Frontier AI Club</a> a community for AI reserach sharing and collaboration!!</li>
+			<li>[2026/08] 🎉 A new journey at WeChat Group in Tencent as a research intern !!</li>
+			<li>[2026/07] 🎉 We founded <a href="https://openenvision.github.io/BlogrXiv/site/index.html">BlogrXiv</a>, a platform for blog sharing.</li>
+			<li>[2026/07] 🎉 We founded <a href="https://openenvision.github.io/">OpenEnvision</a>, an open research community advancing world models and vision intelligence through academia–industry collaboration.</li>
+			<li>[2026/06] 🎉 Two Papers Accepted by ECCV 2026!!!</li>
+            <li>[2026/04] 🎉 One Paper Accepted by MMRAgI@CVPR 2026 workshop!!!</li>
+            <li>[2026/04] 🎉 One Paper Accepted by KnowFM@ACL 2026 workshop as Oral Presentation!!!</li>
+            <li>[2026/03] 🎉 We got the 3-rd place in the NTIRE26-3DRR competation in CVPR 2026 workshop!!!</li>
+            <li>[2025/11] 🎉 I am honored to receive the AAAI Student Scholarship! See you in SG !!!</li>
+            <li>[2025/11] 🎉 Two papers are accepted to AAAI 2026, with one oral presentation, see you in SG !!!</li>
+            <li>[2025/07] 🎉 Check our <a href="https://aiben.ch/rank">AIBench</a> here!!!</li>
+            <li>[2025/07] 🎉 Draw with Thought accepted by ACM Multimedia 2025 as an oral presentation!!!</li>
+            <li>[2025/06] 🎉 <a href="https://github.com/hq-King/Awesome-Affordance-Learning">Awesome Affordance Learning </a> <img src="https://img.shields.io/github/stars/hq-King/Awesome-Affordance-Learning" alt="GitHub stars"> merged in <a href="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> <img src="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide" alt="GitHub stars"> !!!</li>
+            <li>[2025/04] 🎉 A new journey at ShangHai AI lab as a research intern !!</li>
+            <li>[2025/02] 🎉 1 paper accepted to CVPR 2025 !!</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
 </table>
+	
 
-<!-- Projects -->
-<table class="section-block projects-section paper-list" width="100%" align="center" border="0" cellpadding="10">
-<tbody>
-<heading>Projects 🚀</heading>
-<!-- AIBench -->
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/AIbench_page.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://aiben.ch/rank">
-<papertitle>AIBENCH: Towards Trustworthy Evaluation Under the 45&deg Law</papertitle>
-</a>
-<br>
-<b>AIBench Team@ShangHai AI Lab</b>
-<br>
-Zicheng Zhang, Junying Wang, Yijin Guo, Farong Wen, Zijian Chen,<strong style="color:red">Hanqing Wang</strong>, Wenzhe Li, Lu Sun, Yingjie Zhou, Jianbo Zhang, Bowen Yan, Ziheng Jia, Jiahao Xiao, Yuan Tian, Xiangyang Zhu, Kaiwei Zhang, Chunyi Li, Xiaohong Liu, Xiongkuo Min, Qi Jia, Guangtao Zhai#.
-<br>
-<a class="resource-link resource-paper" href="https://www.researchgate.net/profile/Zicheng-Zhang-9/publication/393362210_AIBENCH_TOWARDS_TRUSTWORTHY_EVALUA-_TION_UNDER_THE_45LAW/links/6867747be4632b045dc9b47c/AIBENCH-TOWARDS-TRUSTWORTHY-EVALUA-TION-UNDER-THE-45LAW.pdf">Paper</a> / <a class="resource-link resource-project" href="https://aiben.ch/rank">Project</a>
-<br>
-<strong>Display, JCR Q1, CAS Q2, 2025</strong>
-<p> We present AIBench, a flexible and rapidly updating platform that aggregates evaluation results from commercial platforms, popular open-source leaderboards, and internal evaluation benchmarks. </p>
-</td>
-</tr>
-<!-- Awesome Affordance -->
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/affordance_list.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="#">
-<papertitle>Awesome-Affordance-Learning </papertitle>
-</a>
-<br>
-<b>Founder & Project Leader</b>
-<br>
-<a class="resource-link resource-project" href="https://github.com/hq-King/Awesome-Affordance-Learning">Project page</a>
-<br>
-<p> We offers a comprehensive and up-to-date collection of research papers on Affordance Learning.</p>
-</td>
-</tr>
-<!-- EM Guaid -->
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/Embodied-AI-Guide.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="#">
-<papertitle>Embodied-AI-Guide </papertitle>
-</a>
-<br>
-<b>Contributor</b>
-<br>
-<a class="resource-link resource-project" href="https://github.com/TianxingChen/Embodied-AI-Guide">Project page</a>
-<br>
-<p> <a href="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> <img src="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide" alt="GitHub stars"> received over 10k Github stars and became the most popular chinese Embodied AI tutorial !.</p>
-</td>
-</tr>
-</tbody>
-</table>
+	<table class="section-block projects-section paper-list" width="100%" align="center" border="0" cellpadding="10"><tbody>
+          <heading>Projects 🚀</heading>
+          <!-- AIBench -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/AIbench_page.png" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+              <a href="https://aiben.ch/rank">
+                <papertitle>AIBENCH: Towards Trustworthy Evaluation Under the 45&deg Law</papertitle>
+              </a>
+              <br>
+	      <b>AIBench Team@ShangHai AI Lab</b>
+	      <br>
+              Zicheng Zhang, Junying Wang, Yijin Guo, Farong Wen, Zijian Chen,<strong style="color:red">Hanqing Wang</strong>*, Wenzhe Li, Lu Sun, Yingjie Zhou, Jianbo Zhang, Bowen Yan, Ziheng Jia, Jiahao Xiao, Yuan Tian, Xiangyang Zhu, Kaiwei Zhang, Chunyi Li, Xiaohong Liu, Xiongkuo Min, Qi Jia, Guangtao Zhai#.
+              <br>
+              <a class="resource-link resource-paper" href="https://www.researchgate.net/profile/Zicheng-Zhang-9/publication/393362210_AIBENCH_TOWARDS_TRUSTWORTHY_EVALUA-_TION_UNDER_THE_45LAW/links/6867747be4632b045dc9b47c/AIBENCH-TOWARDS-TRUSTWORTHY-EVALUA-TION-UNDER-THE-45LAW.pdf">Paper</a> /
+              <a class="resource-link resource-project" href="https://aiben.ch/rank">Project</a> 
+              <br>
+              <strong>Display, JCR Q1, CAS Q2, 2025</strong>
+              <p> We present AIBench, a flexible and rapidly updating platform that aggregates evaluation results from commercial platforms, popular open-source leaderboards, and internal evaluation benchmarks. </p>
+            </td>
+        </tr>
 
-<table class="section-block research-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td>
-<heading>Research 💡</heading>
-<p class="larger-text"> My research interest is broadly in <strong>MLLMs</strong> <strong>Generative World Models</strong>, <strong>3D Computer Vision</strong>, and their application in <strong>Robotics</strong> currently. My primary objective is to develop an intelligent agent endowed with robust, generalizable capabilities to perceive and interact with the real world. Representative works are <span class="highlight">highlighted</span>. </p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<!-- Publications -->
+		    <!-- Awesome Affordance -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/affordance_list.png" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+                <papertitle>Awesome-Affordance-Learning </papertitle>
+              </a>
+              <br>
+	      <b>Founder & Project Leader</b>
+              <br>
+              <a class="resource-link resource-project" href="https://github.com/hq-King/Awesome-Affordance-Learning">Project page</a> 
+              <br>
+              <p> We offers a comprehensive and up-to-date collection of research papers on Affordance Learning.</p>
+            </td>
+        </tr>
+
+		    <!-- EM Guaid -->
+        <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+           <td style="padding:10px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mmff'>
+                  <img src="images/Embodied-AI-Guide.png" style="width:140%; height: 100%;">
+                </div>
+              </div>
+            </td>
+            <td style="padding:10px;width:70%;vertical-align:middle">
+                <papertitle>Embodied-AI-Guide </papertitle>
+              </a>
+              <br>
+	      <b>Contributor</b>
+              <br>
+              <a class="resource-link resource-project" href="https://github.com/TianxingChen/Embodied-AI-Guide">Project page</a> 
+              <br>
+              <p> <a href="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide">Embodied-AI-Guide </a> <img src="https://img.shields.io/github/stars/TianxingChen/Embodied-AI-Guide" alt="GitHub stars"> received over 10k Github stars and became the most popular chinese Embodied AI tutorial !.</p>
+            </td>
+        </tr>
+      </tbody></table>
+
+        <table class="section-block research-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td>
+              <heading>Research 💡</heading>
+              <p class="larger-text">
+                My research interest is broadly in <strong>MLLMs</strong> <strong>Generative World Models</strong>, <strong>3D Computer Vision</strong>,  and their application in 
+                <strong>Robotics</strong> currently. My primary objective is to develop an intelligent agent endowed with robust, generalizable capabilities to perceive and interact with the real world.
+
+                Representative works are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+
+
+<!-- 外层仅保留表格基础结构，非表格元素全部移到外部 -->
 <table class="section-block publications-section paper-list" width="100%" align="center" border="0" cellpadding="10">
 <tbody>
-<tr>
-<td colspan="2">
-<heading>Selected Publications 📝</heading>
-<b>* Indicates Equal Contribution, † Indicates Project Leader, # Indicates Corresponding Author.</b> Check my full papers in my <a href="https://scholar.google.cz/citations?user=OeVwcDcAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
-<subheading><b>Spatial Perception & Reasoning</b>👁️</subheading>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/aff_sur.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://www.preprints.org/manuscript/202610.0392">
-<papertitle>From Passive Perception to Active Interaction: A Survey of Affordance Learning for Embodied AI</papertitle>
-</a>
-<br>
-Gen Li*, <strong style="color:red">Hanqing Wang</strong>*, Jingliang Li*, Yifan Han*, Jindou Jia, Tao Lin, Yuanzhe Liu, Yutong Wang, Bo Zhao, Fangqiang Ding, Anh Nguyen, Laura Sevilla-Lara, Huazhe Xu, Gregory S. Chirikjian, Marc Pollefeys, Oier Mees, Hui Xiong#, Jianfei Yang#
-<br>(*equal contribution)
-<a class="resource-link resource-arxiv" href="https://www.preprints.org/manuscript/202610.0392">Preprint</a> / <a class="resource-link resource-project" href="https://jingliangli.com/affordance-survey/">Project</a> / <a class="resource-link resource-code" href="https://github.com/hq-King/Awesome-Affordance-Learning">Code</a> /
-<br> <strong>Under Review</strong>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/videoafford.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/abs/2602.09638">
-<papertitle>VideoAfford: Grounding 3D Affordance from Human-Object-Interaction Videos via Multimodal Large Language Model</papertitle>
-</a>
-<br>
-<strong style="color:red">Hanqing Wang</strong>, Mingyu Liu, Xiaoyu Chen, Chengwei MA, Yiming Zhong, Wenti Yin, Yuhao Liu, Zhiqing Cui, Jiahao Yuan, Lu Dai, Zhiyuan Ma#, Hui Xiong#
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2602.09638">Arxiv</a> / <a class="resource-link resource-project" href="https://arxiv.org/abs/2602.09638">Project</a> / <a class="resource-link resource-code" href="https://arxiv.org/abs/2602.09638">Code</a> /
-<br> <strong>NeurIPS 2026</strong>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/dag.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/abs/2508.01651">
-<papertitle>Diffusion Models are Open-World Affordance Learners: Leveraging Generative Priors for 3D Affordance Learning</papertitle>
-</a>
-<br>
-<strong style="color:red">Hanqing Wang</strong>*, Zhenhao Zhang*, Kaiyang Ji*, Mingyu Liu, Wenti Yin, Yuchao Chen, Zhirui Liu, Xiangyu Zeng, Tianxiang Gui, Hangxing Zhang, Jiahao Yuan, Zhiqing Cui, Jiaxin Liu, Zhiyuan Ma#, Hui Xiong#
-<br>(*equal contribution)
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2508.01651">Arxiv</a> / <a class="resource-link resource-project" href="https://github.com/hq-King/DAG">Project</a> / <a class="resource-link resource-code" href="https://github.com/hq-King/DAG">Code</a> /
-<br> <strong>ECCV 2026</strong>
-</td>
-</tr>
-<!-- AFFR1 -->
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/affr1.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle" >
-<a href="https://arxiv.org/abs/2508.06206">
-<papertitle>Affordance-R1: Reinforcement Learning for Generalizable Affordance Reasoning in Multimodal Large Language Model</papertitle>
-</a>
-<br>
-<strong style="color:red">Hanqing Wang</strong>*, Shaoyang Wang*, Yiming Zhong, Zemin Yang, Jiamin Wang, Zhiqing Cui, Jiahao Yuan, Yifan Han, Mingyu Liu, Yuexin Ma#
-<br>(*equal contribution)
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2508.06206">Arxiv</a> / <a class="resource-link resource-project" href="https://github.com/hq-King/Affordance-R1">Project</a> / <a class="resource-link resource-code" href="https://github.com/hq-King/Affordance-R1">Code</a>
-<br> <strong>AAAI 2026, <b>Oral</b></strong>
-</td>
-</tr>
-<!-- Seqafford -->
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/seqafford.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/abs/2412.01550">
-<papertitle>SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model</papertitle>
-</a>
-<br>
-Chulin Yu*, <strong style="color:red">Hanqing Wang</strong>*, Ye Shi, Haoyang Luo, Sibei Yang, Jingyi Yu, Jingya Wang#
-<br>(*equal contribution)
-<br>
-<a class="resource-link resource-paper" href="https://arxiv.org/abs/2412.01550">Paper</a> / <a class="resource-link resource-project" href="https://seq-afford.github.io/">Project</a> / <a class="resource-link resource-code" href="https://github.com/hq-King/SeqAfford">Code</a>
-<br> <strong>CVPR, 2025</strong>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 0 0 20px 0; width: 100%;">
-<subheading><b>Robot Learning</b> 🤖</subheading>
-<br>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/perturbot.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle" >
-<a href="https://arxiv.org/abs/2601.08246">
-<papertitle>PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training</papertitle>
-</a>
-<br>
-Mingyu Liu, Chonghao Sima, Tianjian Feng, <strong style="color:red">Hanqing Wang</strong>*, Cong Chen, Hao Chen, Chunhua Shen#
-<br>(*equal contribution)
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2610.04616">Arxiv</a>
-<a class="resource-link resource-code" href="https://github.com/aim-uofa/PerturBot">Code</a>
-<br> <strong>Under Review</strong>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/corl_2026.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle" >
-<a href="https://arxiv.org/abs/2601.08246">
-<papertitle>Perfect Demo Makes Poor Teacher: Learning Robust Alignment from Critical Motion Segments</papertitle>
-</a>
-<br>
-Mingyu Liu, Zeju Li, Jiuhe Shu, <strong style="color:red">Hanqing Wang</strong>, Yuhao Chao, Hao Chen, Chunhua Shen#
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2606.15587">Arxiv</a>
-<a class="resource-link resource-code" href="https://github.com/aim-uofa/STAIR">Code</a>
-<br> <strong>CORL 2026</strong>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/A4A.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle" >
-<a href="https://arxiv.org/abs/2601.08246">
-<papertitle>A4A: Cross-Embodiment Transfer of Action-Oriented 4D Affordances from Human Demonstrations</papertitle>
-</a>
-<br>
-Yifan Han, Litao Liu, Yuqi Gu, Ye Lu, <strong style="color:red">Hanqing Wang</strong>, Sidney Wai, Ishaan Myrie, Qi Zhang, Jingjin Yu, Gen Li#
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2609.05892">Arxiv</a>
-<br> <strong>Under Review</strong>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 0 0 20px 0; width: 100%;">
-<subheading><b>Generative & World Models</b> 🧠</subheading>
-<br>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/tpami_diffusion.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/abs/2610.21539">
-<papertitle>Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond</papertitle>
-</a>
-<br>
-Zhiyuan Ma, Jiabao Wei, Tianyu Wang, <strong style="color:red">Hanqing Wang</strong>, Jiadong Pan, Haowen Xu, Liangliang Zhao, Ruixun Liu, Yuhan Wang, Yuwei Zhang, Liang Feng, Junhao Xiao, Kaiyan Zhang, Xuekai Zhu, Daizong Liu, Biqing Qi, Yihao Liu, Ganqu Cui, Ning Ding, Linfeng Zhang, Jianjun Li, Kun He, Xiang Bai, Bowen Zhou#
-<br>
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2610.21539">Arxiv</a> / <a class="resource-link resource-code" href="https://github.com/MAIR-Lab-HUST/Awesome-RL-for-Diffusion-Models">Repo</a>
-<br> <strong>TPAMI 2026</strong>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 0 0 20px 0; width: 100%;">
-<subheading><b>MLLM & Agent</b> 🧠</subheading>
-<br>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/sde.jpg" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/abs/2508.06142">
-<papertitle>SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models</papertitle>
-</a>
-<br>
-<strong style="color:red">Hanqing Wang</strong>, Yuan Tian, Mingyu Liu, Zhenghao Zhang, Xiangyang Zhu#
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2508.06142">Arxiv</a> / <a class="resource-link resource-code" href="https://github.com/hq-King/SDEval">Code</a>
-<br> <strong>AAAI 2026</strong>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()">
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/ludai.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/abs/2512.01282">
-<papertitle>Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model FinetuningPreprint</papertitle>
-</a>
-<br>
-Lu Dai, Ziyang Rao, Yili Wang, <strong style="color:red">Hanqing Wang</strong>, Hao Liu, Hui Xiong#
-<br>
-<a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2607.08393">Arxiv</a> / <a class="resource-link resource-code" href="https://stellaludai.github.io/Mem2Gen/">Code</a>
-<br> <strong>Arxiv, Under Review</strong>
-</td>
-</tr>
-<tr onmouseout="malle_stop()" onmouseover="malle_start()" >
-<td style="padding:10px;width:30%;vertical-align:middle">
-<div class="one">
-<div class="two" id='mmff'>
-<img src="images/draw.png" style="width:100%; height: 100%;">
-</div>
-</div>
-</td>
-<td style="padding:10px;width:70%;vertical-align:middle">
-<a href="https://arxiv.org/pdf/2504.09479">
-<papertitle>Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generationn</papertitle>
-</a>
-<br>
-Zhiqing Cui, Jiahao Yuan, <strong style="color:red">Hanqing Wang</strong>, Yanshu Li, Chenxu Du, Zhenglong Ding#
-<br>
-<a class="resource-link resource-paper" href="https://arxiv.org/pdf/2504.09479">Paper</a> / <a class="resource-link resource-code" href="https://github.com/CuiZHIQ/Draw-with-Thought">Code</a>
-<br> <strong>ACM MM 2025, Oral </strong>
-</td>
-</tr>
+    <tr>
+        <td colspan="2">
+            <heading>Selected Publications 📝</heading> 	<b>* Indicates Equal Contribution, † Indicates Project Leader, # Indicates Corresponding Author.</b> Check my full papers in my  <a href="https://scholar.google.cz/citations?user=OeVwcDcAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+			<subheading><b>Spatial Perception & Reasoning</b>👁️</subheading>
+        </td>
+    </tr>
+
+	<tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+	           <td style="padding:10px;width:30%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='mmff'>
+	                  <img src="images/aff_sur.png" style="width:140%; height: 100%;">
+	                </div>
+	              </div>
+	            </td>
+	            <td style="padding:10px;width:70%;vertical-align:middle">
+	              <a href="https://www.preprints.org/manuscript/202610.0392">
+	                <papertitle>From Passive Perception to Active Interaction: A Survey of Affordance Learning for Embodied AI</papertitle>
+	              </a>
+	             <br>
+	        Gen Li*, <a:focus><strong>Hanqing Wang*</strong></a:focus>, Jingliang Li*, Yifan Han*, Jindou Jia, Tao Lin, Yuanzhe Liu, Yutong Wang, Bo Zhao, Fangqiang Ding, Anh Nguyen, Laura Sevilla-Lara, Huazhe Xu, Gregory S. Chirikjian, Marc Pollefeys, Oier Mees, Hui Xiong#, Jianfei Yang#
+	        <a class="resource-link resource-arxiv" href="https://www.preprints.org/manuscript/202610.0392">Preprint</a> /
+	        <a class="resource-link resource-project" href="https://jingliangli.com/affordance-survey/">Project</a> / 
+	        <a class="resource-link resource-code" href="https://github.com/hq-King/Awesome-Affordance-Learning">Code</a> / 
+	              <br>
+            <strong>Under Review</strong>
+	            </td>
+	        </tr>
+	
+
+	<tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+	           <td style="padding:10px;width:30%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='mmff'>
+	                  <img src="images/videoafford.png" style="width:140%; height: 100%;">
+	                </div>
+	              </div>
+	            </td>
+	            <td style="padding:10px;width:70%;vertical-align:middle">
+	              <a href="https://arxiv.org/abs/2602.09638">
+	                <papertitle>VideoAfford: Grounding 3D Affordance from Human-Object-Interaction Videos via Multimodal Large Language Model</papertitle>
+	              </a>
+	             <br>
+	              <strong style="color:red">Hanqing Wang</strong>*, Mingyu Liu, Xiaoyu Chen, Chengwei MA, Yiming Zhong, Wenti Yin, Yuhao Liu, Zhiqing Cui, Jiahao Yuan, Lu Dai, Zhiyuan Ma#, Hui Xiong#
+	        <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2602.09638">Arxiv</a> /
+	        <a class="resource-link resource-project" href="https://arxiv.org/abs/2602.09638">Project</a> / 
+	        <a class="resource-link resource-code" href="https://arxiv.org/abs/2602.09638">Code</a> / 
+	              <br>
+            <strong>NeurIPS 2026</strong>
+	            </td>
+	        </tr>
+	
+
+	 <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+	           <td style="padding:10px;width:30%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='mmff'>
+	                  <img src="images/dag.png" style="width:140%; height: 100%;">
+	                </div>
+	              </div>
+	            </td>
+	            <td style="padding:10px;width:70%;vertical-align:middle">
+	              <a href="https://arxiv.org/abs/2508.01651">
+	                <papertitle>Diffusion Models are Open-World Affordance Learners: Leveraging Generative Priors for 3D Affordance Learning</papertitle>
+	              </a>
+	             <br>
+	              <a:focus><strong>Hanqing Wang*</strong></a:focus>,
+	                Zhenhao Zhang*, Kaiyang Ji*, Mingyu Liu, Wenti Yin, Yuchao Chen, Zhirui Liu, Xiangyu Zeng, Tianxiang Gui, Hangxing Zhang, Jiahao Yuan, Zhiqing Cui, Jiaxin Liu, Zhiyuan Ma#, Hui Xiong#
+	              <br>
+	        (*equal contribution)
+	        <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2508.01651">Arxiv</a> /
+	        <a class="resource-link resource-project" href="https://github.com/hq-King/DAG">Project</a> / 
+	        <a class="resource-link resource-code" href="https://github.com/hq-King/DAG">Code</a> / 
+	              <br>
+            <strong>ECCV 2026</strong>
+	            </td>
+	        </tr>
+
+    <!-- AFFR1 -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()" bgcolor="#ffffdc">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/affr1.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle" >
+            <a href="https://arxiv.org/abs/2508.06206">
+                <papertitle>Affordance-R1: Reinforcement Learning for Generalizable Affordance Reasoning in Multimodal Large Language Model</papertitle>
+            </a>
+            <br>
+            <a:focus><strong>Hanqing Wang*</strong></a:focus>, Shaoyang Wang*, Yiming Zhong, Zemin Yang, Jiamin Wang, Zhiqing Cui, Jiahao Yuan, Yifan Han, Mingyu Liu, Yuexin Ma#
+            <br>
+			(*equal contribution)
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2508.06206">Arxiv</a> /
+            <a class="resource-link resource-project" href="https://github.com/hq-King/Affordance-R1">Project</a> / 
+            <a class="resource-link resource-code" href="https://github.com/hq-King/Affordance-R1">Code</a> 
+            <br>
+            <strong>AAAI 2026, <b>Oral</b></strong>
+        </td>
+    </tr>
+
+    <!-- Seqafford -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/seqafford.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2412.01550">
+                <papertitle>SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model</papertitle>
+            </a>
+            <br>
+            Chulin Yu*, <a:focus><strong>Hanqing Wang*<b> </b></strong></a:focus>, Ye Shi, Haoyang Luo, Sibei Yang, Jingyi Yu, Jingya Wang#
+            <br>
+            (*equal contribution)
+            <br>
+            <a class="resource-link resource-paper" href="https://arxiv.org/abs/2412.01550">Paper</a> /
+            <a class="resource-link resource-project" href="https://seq-afford.github.io/">Project</a> / 
+            <a class="resource-link resource-code" href="https://github.com/hq-King/SeqAfford">Code</a> 
+            <br>
+            <strong>CVPR, 2025</strong>
+        </td>
+    </tr>
+
+	    <tr>
+        <td colspan="2">
+            <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 0 0 20px 0; width: 100%;">
+            <subheading><b>Robot Learning</b> 🤖</subheading>
+            <br>
+        </td>
+    </tr>
+
+		    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/perturbot.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle" >
+            <a href="https://arxiv.org/abs/2601.08246">
+                <papertitle>PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training</papertitle>
+            </a>
+            <br>
+            Mingyu Liu, Chonghao Sima, Tianjian Feng, <a:focus><strong>Hanqing Wang*<b> </b></strong></a:focus>, Cong Chen, Hao Chen, Chunhua Shen#
+            <br>
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2610.04616">Arxiv</a> 
+			<a class="resource-link resource-code" href="https://github.com/aim-uofa/PerturBot">Code</a> 
+            <br>
+            <strong>Under Review</strong>
+        </td>
+    </tr>
+	
+
+	    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/corl_2026.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle" >
+            <a href="https://arxiv.org/abs/2601.08246">
+                <papertitle>Perfect Demo Makes Poor Teacher: Learning Robust Alignment from Critical Motion Segments</papertitle>
+            </a>
+            <br>
+            Mingyu Liu, Zeju Li, Jiuhe Shu, <strong style="color:red">Hanqing Wang</strong>*, Yuhao Chao, Hao Chen, Chunhua Shen# 
+            <br>
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2606.15587">Arxiv</a> 
+			<a class="resource-link resource-code" href="https://github.com/aim-uofa/STAIR">Code</a> 
+            <br>
+            <strong>CORL 2026</strong>
+        </td>
+    </tr>
+
+		    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/A4A.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle" >
+            <a href="https://arxiv.org/abs/2601.08246">
+                <papertitle>A4A: Cross-Embodiment Transfer of Action-Oriented 4D Affordances from Human Demonstrations</papertitle>
+            </a>
+            <br>
+            Yifan Han, Litao Liu, Yuqi Gu, Ye Lu, <strong style="color:red">Hanqing Wang</strong>*, Sidney Wai, Ishaan Myrie, Qi Zhang, Jingjin Yu, Gen Li# 
+            <br>
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2609.05892">Arxiv</a> 
+			<!-- <a class="resource-link resource-code" href="https://github.com/aim-uofa/STAIR">Code</a>  -->
+            <br>
+            <strong>Under Review</strong>
+        </td>
+    </tr>
+
+	 <!-- 分类分隔线：用tr+td包裹，适配表格布局，不破坏结构 -->
+    <tr>
+        <td colspan="2">
+            <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 0 0 20px 0; width: 100%;">
+            <subheading><b>Generative & World Models</b> 🧠</subheading>
+            <br>
+        </td>
+    </tr>
+
+	<!-- SAD-Eval -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/tpami_diffusion.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2610.21539">
+                <papertitle>Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond</papertitle>
+            </a>
+            <br>
+            Zhiyuan Ma, Jiabao Wei, Tianyu Wang, <strong style="color:red">Hanqing Wang</strong>*, Jiadong Pan, Haowen Xu, Liangliang Zhao, Ruixun Liu, Yuhan Wang, Yuwei Zhang, Liang Feng, Junhao Xiao, Kaiyan Zhang, Xuekai Zhu, Daizong Liu, Biqing Qi, Yihao Liu, Ganqu Cui, Ning Ding, Linfeng Zhang, Jianjun Li, Kun He, Xiang Bai, Bowen Zhou#
+            <br>
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2610.21539">Arxiv</a> /
+            <a class="resource-link resource-code" href="https://github.com/MAIR-Lab-HUST/Awesome-RL-for-Diffusion-Models">Repo</a> 
+            <br>
+            <strong>TPAMI 2026</strong>
+        </td>
+    </tr>
+	
+
+
+	
+
+    <!-- 分类分隔线：用tr+td包裹，适配表格布局，不破坏结构 -->
+    <tr>
+        <td colspan="2">
+            <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 0 0 20px 0; width: 100%;">
+            <subheading><b>MLLM & Agent</b> 🧠</subheading>
+            <br>
+        </td>
+    </tr>
+
+    <!-- SAD-Eval -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/sde.jpg" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2508.06142">
+                <papertitle>SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models</papertitle>
+            </a>
+            <br>
+            <strong style="color:red">Hanqing Wang</strong>*, Yuan Tian, Mingyu Liu, Zhenghao Zhang, Xiangyang Zhu#
+            <br>
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2508.06142">Arxiv</a> /
+            <a class="resource-link resource-code" href="https://github.com/hq-King/SDEval">Code</a> 
+            <br>
+            <strong>AAAI 2026</strong>
+        </td>
+    </tr>
+
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/ludai.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle">
+            <!-- 修复原代码标题链接错误问题 -->
+            <a href="https://arxiv.org/abs/2512.01282">
+                <papertitle>Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model FinetuningPreprint</papertitle>
+            </a>
+            <br>
+            Lu Dai, Ziyang Rao, Yili Wang, <strong style="color:red">Hanqing Wang</strong>*, Hao Liu, Hui Xiong#
+            <br>
+            <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2607.08393">Arxiv</a> /
+            <a class="resource-link resource-code" href="https://stellaludai.github.io/Mem2Gen/">Code</a> 
+            <br>
+            <strong>Arxiv, Under Review</strong>
+        </td>
+    </tr>
+
+    <!-- DWT -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()" >
+        <td style="padding:10px;width:30%;vertical-align:middle">
+            <div class="one">
+                <div class="two" id='mmff'>
+                    <img src="images/draw.png" style="width:140%; height: 100%;">
+                </div>
+            </div>
+        </td>
+        <td style="padding:10px;width:70%;vertical-align:middle">
+            <a href="https://arxiv.org/pdf/2504.09479">
+                <papertitle>Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generationn</papertitle>
+            </a>
+            <br>
+            Zhiqing Cui, Jiahao Yuan, <strong style="color:red">Hanqing Wang</strong>*, Yanshu Li, Chenxu Du, Zhenglong Ding#
+            <br>
+            <a class="resource-link resource-paper" href="https://arxiv.org/pdf/2504.09479">Paper</a> /
+            <a class="resource-link resource-code" href="https://github.com/CuiZHIQ/Draw-with-Thought">Code</a> 
+            <br>
+            <strong>ACM MM 2025, Oral </strong>
+        </td>
+    </tr>
 </tbody>
 </table>
+		
+    
+         <!-- Experience -->
+  <table class="section-block timeline-list" width="100%" align="center" border="0" cellpadding="10"><tbody>
+          <heading>Education 📖</heading>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Profile</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .university-logo {
+            width: 280px; /* 固定宽度 */
+            height: auto; /* 高度自动调整以保持纵横比 */
+            margin-right: 20px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .university-info {
+            flex: 1;
+        }
+        
+        .university-name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .university-period {
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: #666;
+        }
+        
+        .university-major {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
 
-<!-- Education -->
-<table class="section-block timeline-list" width="100%" align="center" border="0" cellpadding="10">
-<tbody>
-<heading>Education 📖</heading>
-</tbody>
-</table>
-<div class="university-container">
-<img src="images/hkust.png" alt="University Logo" class="university-logo">
-<div class="university-info">
-<div class="university-name">
-<strong><a href="https://www.hkust-gz.edu.cn/zh/" target="_blank"><papertitle>Hong Kong University of Science and Technology</papertitle> </a></strong>
-</div>
-<div class="university-major">Guangzhou Campus, Major: Mphil</div>
-</div>
-</div>
-<div class="university-container">
-<img src="images/hzkjdx.png" alt="University Logo" class="university-logo">
-<div class="university-info">
-<div class="university-name">
-<strong><a href="https://www.hust.edu.cn/" target="_blank"><papertitle>Huazhong University of Science and Technology</papertitle> </a></strong>
-</div>
-<div class="university-major">Wuhan, Major: Automation, AIA</div>
-</div>
-</div>
+    <div class="container">
+        <img src="images/hkust.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://www.hkust-gz.edu.cn/zh/" target="_blank"><papertitle>Hong Kong University of Science and Technology</papertitle> </a></strong></div>
+            <div class="university-major">Guangzhou Campus, Major: Mphil</div>
+        </div>
+    </div>
 
-<!-- Services -->
-<table class="section-block services-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<heading>Services ✍️</heading>
-<td style="padding:0px;width:100%;vertical-align:middle">
-<ul style="padding-left:20px;">
-<li>Reviewer: CVPR, AAAI, NeurIPS, ICLR, WWW, Pattern Recognition</li>
-<li>I serve as the leader of the vision group in the Robot team of HUST.</li>
-<li>IEEE Student Member, <a href="https://openenvision.github.io/">OpenEnvision</a> Member, <a href="https://hai-hkust.github.io/">HKUST(GZ) Frontier AI Club</a> Founder.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
+     <div class="container">
+        <img src="images/hzkjdx.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://www.hkust-gz.edu.cn/zh/" target="_blank"><papertitle>Huazhong University of Science and Technology</papertitle> </a></strong></div>
+            <div class="university-major">Wuhan, Major: Automation, AIA</div>
+        </div>
+    </div>
 
-<!-- Experience -->
-<table class="section-block timeline-list" width="100%" align="center" border="0" cellpadding="10">
-<tbody>
-<heading>Experience ✡️</heading>
-</tbody>
-</table>
-<div class="university-container">
-<img src="images/wxg.jpg" alt="WeChat Group Logo" class="university-logo">
-<div class="university-info">
-<div class="university-name">
-<strong><a href="https://weixin.qq.com/" target="_blank"><papertitle>WXG, Tencent</papertitle> </a></strong>
-</div>
-<div class="university-major">Research Intern: Video Generation, LLM Post-training, Pre-training </div>
-</div>
-</div>
-<div class="university-container">
-<img src="images/AI LAB.png" alt="University Logo" class="university-logo">
-<div class="university-info">
-<div class="university-name">
-<strong><a href="https://www.shlab.org.cn/" target="_blank"><papertitle>Shanghai Artificial Intelligence Laboratory</papertitle> </a></strong>
-</div>
-<div class="university-major">Research Intern: LLMs, Benchmark</div>
-</div>
-</div>
-<div class="university-container">
-<img src="images/skdblue.png" alt="University Logo" class="university-logo">
-<div class="university-info">
-<div class="university-name">
-<strong><a href="https://vdi.sist.shanghaitech.edu.cn/" target="_blank"><papertitle>VDI Center of ShanghaiTech University</papertitle></a></strong>
-</div>
-<div class="university-major">Research Intern: LLM, Embodied AI, 3D Vision</div>
-</div>
-</div>
-<div class="university-container">
-<img src="images/shenzhen.png" alt="University Logo" class="university-logo">
-<div class="university-info">
-<div class="university-name">
-<strong><a href="https://www.innoxsz.com/" target="_blank"><papertitle>ShenZhen Innox Academy</papertitle></a></strong>
-</div>
-<div class="university-major">Excellent Member</div>
-</div>
-</div>
+         
+ 
+        
+          <!-- Services -->
+        <table class="section-block services-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <heading>Services ✍️</heading>
+            <td style="padding:0px;width:100%;vertical-align:middle">
+                <li>Reviewer: CVPR, AAAI, NeurIPS, ICLR, WWW, Pattern Recognition</li>
+              </p>
+              <p>
+                <li>I serve as the leader of the vision group in the Robot team of HUST.</li>
+              </p>
+			<p>
+                <li>IEEE Student Member, <a href="https://openenvision.github.io/">OpenEnvision</a> Member, <a href="https://hai-hkust.github.io/">HKUST(GZ) Frontier AI Club</a> Founder.</li></li>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
 
-<!-- Awards -->
-<table class="section-block awards-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<heading>Selected Awards and Honors 🏆</heading>
-<td style="padding:0px;width:100%;vertical-align:middle">
-<ul style="padding-left:20px;">
-<li> AAAI Student Scholarship (1000 USD) </li>
-<li> Postgraduate Scholarship (240000 RMB) of HKUST (gz) </li>
-<li> <b>Outstanding Graduate</b> in Huazhong University of Science and Technology</li>
-<li> China University Robot Competition of ROBOCON, <b>National First Prize</b></li>
-<li> <b>"SIEMENS Cup"</b> China Intelligent Manufacturing Challenge, <b>Second Prize</b></li>
-<li> National Intelligent Robot Innovation Competition, <b>National First Prize</b></li>
-<li> <b>Outstanding Member</b> in <a href="https://www.innoxsz.com/">Shenzhen InnoX Academy</a>. </li>
-<li> RoboCom Robot developer competition, <b>Third Prize</b></li>
-<li> <b>Scholarship of Scientific and Technological Innovation</b>, HUST</li>
-<li> <b>Freshman scholarship</b>, HUST</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
 
-<!-- Hobbies -->
+         <!-- Experience -->
+  <table class="section-block timeline-list" width="100%" align="center" border="0" cellpadding="10"><tbody>
+          <heading>Experience ✡️</heading>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Profile</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .university-logo {
+            width: 280px; /* 固定宽度 */
+            height: auto; /* 高度自动调整以保持纵横比 */
+            margin-right: 20px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .university-info {
+            flex: 1;
+        }
+        
+        .university-name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .university-period {
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: #666;
+        }
+        
+        .university-major {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/wxg.jpg" alt="WeChat Group Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://weixin.qq.com/" target="_blank"><papertitle>WXG, Tencent</papertitle> </a></strong></div>
+            <div class="university-major">Research Intern: Video Generation, LLM Post-training, Pre-training </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="images/AI LAB.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">         
+       <strong><a href="https://www.shlab.org.cn/" target="_blank"><papertitle>Shanghai Artificial Intelligence Laboratory</papertitle> </a></strong></div>
+            <div class="university-major">Research Intern: LLMs, Benchmark</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="images/skdblue.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">          
+        <strong><a href="https://vdi.sist.shanghaitech.edu.cn/" target="_blank"><papertitle>VDI Center of ShanghaiTech University</papertitle></a></strong></div>
+            <div class="university-major">Research Intern: LLM, Embodied AI, 3D Vision</div>
+        </div>
+    </div>
+
+       <div class="container">
+        <img src="images/shenzhen.png" alt="University Logo" class="university-logo">
+        <div class="university-info">
+            <div class="university-name">          
+        <strong><a href="https://www.innoxsz.com/" target="_blank"><papertitle>ShenZhen Innox Academy</papertitle></a></strong></div>
+            <div class="university-major">Excellent Member</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+        <table class="section-block awards-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+                <heading>Selected Awards and Honors 🏆</heading>
+                <td style="padding:0px;width:100%;vertical-align:middle">
+					
+				 <p>
+                    <li> AAAI Student Scholarship (1000 USD) </li>
+                  </p>
+				<p>
+                    <li> Postgraduate Scholarship (240000 RMB) of HKUST (gz) </li>
+                  </p>
+
+					
+                  <p>
+                    <li> <b>Outstanding Graduate</b> in Huazhong University of Science and Technology</li>
+                  </p>
+
+                  <p>
+                    <li> China University Robot Competition of ROBOCON, <b>National First Prize</b></li>
+                   <p>
+
+
+                   <p>
+                    <li> <b>"SIEMENS Cup"</b> China Intelligent Manufacturing Challenge, <b>Second Prize</b></li>
+                  </p>
+
+                   <p>
+                    <li> National Intelligent Robot Innovation Competition, <b>National First Prize</b></li>
+                  </p>
+
+                   <p>
+                    <li> <b>Outstanding Member</b> in <a href="https://www.innoxsz.com/">Shenzhen InnoX Academy</a>.
+                  </p>
+
+                  <p>
+                    <li> RoboCom Robot developer competition, <b>Third Prize</b></li>
+                  </p>
+
+                  <p>
+                    <li> <b>Scholarship of Scientific and Technological Innovation</b>, HUST</li>
+                  </p>
+
+                  <p>
+                    <li> <b>Freshman scholarship</b>, HUST</li>
+                  </p>
+
+                </td>
+            </tr>
+        </tbody></table>
+
+<style>
+  /* 1. 让图片统一 120×120，裁剪不变形 */
+  .gallery-item {
+    width: 180px;
+    height: 160px;
+    object-fit: cover;   /* 填满区域，多余裁剪 */
+    border-radius: 4px;  /* 可选：圆角美观 */
+  }
+
+  /* 2. 自适应网格布局，一行放不下就换行 */
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;            /* 图片间距 */
+    justify-content: flex-start;
+  }
+</style>
+
 <table class="section-block hobbies-section" style="width:100%;border:0;border-spacing:0;margin:0 auto;">
-<tbody>
-<tr>
-<td style="padding:0;width:100%;vertical-align:middle">
-<heading>Hobbies 🎨</heading>
-🚴🏻‍♂️ Cycling, 🏀 Basketball, ⛰️ Hiking, 📷 Photography, 😺 Cat, 🎤 G.E.M. fan
-<br><br>
-<div class="gallery-container">
-<img src="images/gallery/xueshan.jpg" class="gallery-item">
-<img src="images/gallery/2.jpg" class="gallery-item">
-<img src="images/gallery/3.jpg" class="gallery-item">
-<img src="images/gallery/airport.jpg" class="gallery-item">
-<img src="images/gallery/26.jpg" class="gallery-item">
-<img src="images/gallery/5.jpg" class="gallery-item">
-<img src="images/gallery/6.jpg" class="gallery-item">
-<img src="images/gallery/7.jpg" class="gallery-item">
-<img src="images/gallery/25.jpg" class="gallery-item">
-<img src="images/gallery/canton.jpg" class="gallery-item">
-<img src="images/gallery/gkg.jpg" class="gallery-item">
-<img src="images/gallery/11.jpg" class="gallery-item">
-<img src="images/gallery/12.jpg" class="gallery-item">
-<img src="images/gallery/13.jpg" class="gallery-item">
-<img src="images/gallery/14.jpg" class="gallery-item">
-<img src="images/gallery/18.jpg" class="gallery-item">
-<img src="images/gallery/16.jpg" class="gallery-item">
-<img src="images/gallery/17.jpg" class="gallery-item">
-<img src="images/gallery/gem.png" class="gallery-item">
-<img src="images/gallery/dzq1.jpg" class="gallery-item">
-<img src="images/15.jpg" class="gallery-item">
-<img src="images/gallery/23.jpg" class="gallery-item">
-<img src="images/gallery/dzq2.jpg" class="gallery-item">
-<img src="images/gallery/4.jpg" class="gallery-item">
-</div>
-</td>
-</tr>
-</tbody>
-</table>
+  <tbody>
+    <tr>
+      <td style="padding:0;width:100%;vertical-align:middle">
+        <heading>Hobbies 🎨</heading>
+        🚴🏻‍♂️ Cycling, 🏀 Basketball, ⛰️ Hiking, 📷 Photography, 😺 Cat, 🎤 G.E.M. fan
+        <br><br>
 
-<br>
+       <div class="gallery-container">
+          <!-- 下面 img 标签保持不动 -->
+          <img src="images/gallery/xueshan.jpg"  class="gallery-item">
+          <img src="images/gallery/2.jpg"  class="gallery-item">
+          <img src="images/gallery/3.jpg"  class="gallery-item">
+          <img src="images/gallery/airport.jpg"      class="gallery-item">
+
+          <img src="images/gallery/26.jpg"     class="gallery-item">
+          <img src="images/gallery/5.jpg"  class="gallery-item">
+          <img src="images/gallery/6.jpg"  class="gallery-item">
+          <img src="images/gallery/7.jpg"  class="gallery-item">
+
+          <img src="images/gallery/25.jpg"  class="gallery-item">
+          <img src="images/gallery/canton.jpg"  class="gallery-item">
+          <img src="images/gallery/gkg.jpg"  class="gallery-item">
+          <img src="images/gallery/11.jpg"  class="gallery-item">
+
+          <img src="images/gallery/12.jpg" class="gallery-item">
+          <img src="images/gallery/13.jpg"   class="gallery-item">
+          <img src="images/gallery/14.jpg"      class="gallery-item">
+          <img src="images/gallery/18.jpg" class="gallery-item">
+
+          <img src="images/gallery/16.jpg"     class="gallery-item">
+          <img src="images/gallery/17.jpg"      class="gallery-item">
+          <img src="images/gallery/gem.png"     class="gallery-item">
+          <img src="images/gallery/dzq1.jpg" class="gallery-item">
+
+          <img src="images/15.jpg"     class="gallery-item">
+          <img src="images/gallery/23.jpg" class="gallery-item">
+          <img src="images/gallery/dzq2.jpg"     class="gallery-item">
+          <img src="images/gallery/4.jpg"  class="gallery-item">
+
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+        </br>
+
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=qe6ASVR6BgForBVG7TTZP4To7UOqWV-GnGZEF9Ht7hs'></script>
+	  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                    This template is a modification to <a href="https://gengyiran.github.io/">Yiran Geng</a>'s and <a href="https://jonbarron.info/">Jon Barron</a>'s website. 
+                </p>
+              </td>
+            </tr>
+        </tbody></table>
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td style="padding:0px">
-<br>
-<p style="text-align:right;font-size:small;"> This template is a modification to <a href="https://gengyiran.github.io/">Yiran Geng</a>'s and <a href="https://jonbarron.info/">Jon Barron</a>'s website. </p>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</table>
 
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
